@@ -2,7 +2,7 @@
 #include <iostream>
 int main(int argc, char* argv[])
 {
-	if (argc > 4) {
+	if (argc != 4) {
 		std::cerr << "Usage: " << argv[0] << " a b c" << std::endl;
 		std::cerr << "where a, b, c are triangle side lengths (as floating "
 			"numbers, e.g. 1.2 3.4 4)" << std::endl;
